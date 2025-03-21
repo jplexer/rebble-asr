@@ -6,5 +6,4 @@ services:
       - "9039:9039"
     restart: always
     environment:
-      - GROQ_API_KEY=${GROQ_API_KEY}
       - PORT=9039
